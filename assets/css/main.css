@@ -99,12 +99,11 @@ input, select, textarea {
 	}
 
 	body {
-		background-color: #935d8c;
-		background-image: url("images/overlay.png"), -moz-linear-gradient(45deg, #4a9228 15%, #360bb8 85%);
-		background-image: url("images/overlay.png"), -webkit-linear-gradient(45deg, #4a9228 15%, #360bb8 85%);
-		background-image: url("images/overlay.png"), -ms-linear-gradient(45deg, #4a9228, #360bb8 85%);
-		background-image: url("images/overlay.png"), linear-gradient(45deg, #4a9228 15%, #360bb8 85%);
+		background-color: #000000;
+		background-image: url("images/overlay.png"),linear-gradient(to bottom right, #000000 0%, #ffffff 100%);
 	}
+	
+
 
 		body.is-preload *, body.is-preload *:before, body.is-preload *:after {
 			-moz-animation: none !important;
@@ -2884,23 +2883,23 @@ input, select, textarea {
 		}
 
 			.statistics li.style1 {
-				background-color: #efa8b0;
+				background-color: #97A6F2;
 			}
 
 			.statistics li.style2 {
-				background-color: #c79cc8;
+				background-color: #748AF6;
 			}
 
 			.statistics li.style3 {
-				background-color: #a89cc8;
+				background-color: #163BF0;
 			}
 
 			.statistics li.style4 {
-				background-color: #9bb2e1;
+				background-color: #092195;
 			}
 
 			.statistics li.style5 {
-				background-color: #8cc9f0;
+				background-color: #091033;
 			}
 
 			.statistics li strong, .statistics li b {
